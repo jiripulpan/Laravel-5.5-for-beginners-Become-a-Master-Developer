@@ -30,6 +30,7 @@ class CreateUsersTable extends Migration
             $table->string('city')->nullable();
             $table->integer('role_id')->unsigned();
         });
+
     }
 
     /**
